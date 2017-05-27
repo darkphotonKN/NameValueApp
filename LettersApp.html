@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Letters App</title>
+    <link href="LettersAppStyle.css" rel="stylesheet">
+    <script src='../HTML%20CCS%20JS%20Basics/jquery-3.1.1.min.js'></script>
+</head>
+<body>
+    <div id="title">
+        Name Value App
+    </div>
+
+    <div id="author"> &copy Kranti Nebhwani</div>
+
+    <div id="box">
+        <p class="box">This simple Web Application reads your name and calculates its value.</p>
+        <form id="inp_form" action="">
+            Enter Name: <input type="text" name="name input" id="name_input"> <!-- input box -->
+            <!-- <input type="submit" value="send"> <!-- button -->
+        </form>
+
+         <button id="send_inp">Submit</button> <!--removed: onclick="readForm()"-->
+    </div>
+
+    <p class="write_on_click"></p>
+
+    <!-- div to appear upon result -->
+    <div id="result">
+    </div>
+
+    <script type="text/javascript" src="LettersAppScript.js"></script>
+</body>
+</html>
